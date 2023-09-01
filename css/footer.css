@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 2rem;
+    height: 20rem;
+    background-color: bisque;
+}
+
+.div-footer {
+    display: flex;
+    width: 20%;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.alinha {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.social,
+.formas-pagamento {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.pinterest,
+.facebook,
+.instagram,
+.cartao {
+    display: flex;
+    height: 2rem;
+}
+
+.ajuda {
+    display: flex;
+    padding: .4rem;
+    color: inherit;
+}
+
+.formas-pagamento {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.p-rodape {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.5rem auto .5rem;
+    padding: 0;
+    align-items: center;
+    background-color: #fff;
+}

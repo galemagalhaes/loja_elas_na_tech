@@ -1,8 +1,5 @@
-/* html {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-} */
+/* TODO: criar variáveis para as cores */
+/* TODO: separar css do header e footer e básicos do main para repetir nas outras páginas */
 
 body {
   display: flex;
@@ -19,7 +16,10 @@ a {
 
 p {
   padding: 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
 }
+
 
 .banner img {
   display: flex;
@@ -29,8 +29,10 @@ p {
 }
 
 .promo {
-  background-color: aqua;
-  height: 2.5em;
+  /* TODO: colocar animação para movimentar texto de promoções */
+  background-color: rgb(250, 161, 102);
+  color: #fff;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +44,6 @@ p {
   justify-content: space-evenly;
   position: sticky;
   top: 0;
-  background-color: #fff
 }
 
 .logado {
@@ -52,20 +53,65 @@ p {
   align-items: center;
 }
 
+.login,
+.favoritos,
+.carrinho {
+  background-color: #fff;
+  border: none;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.login {
+  background-image: url(../assets/icons/do-utilizador.png);
+}
+
+.favoritos {
+  background-image: url(../assets/icons/favorito.png);
+}
+
+.carrinho {
+  background-image: url(../assets/icons/sacola-de-compras.png);
+}
+
 .logo {
   display: flex;
   width: 100px;
 }
 
 .busca {
-  min-width: 40vw;
-  margin: 2rem;
-  border-radius: 16px;
-  background-image: url(../assets/img/lupa.png);
+  min-width: 30vw;
+  height: 2rem;
+  margin: auto 0;
+  border-radius: 1rem 0 0 1rem;
+  border: 1px solid #f0eaea;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.lupa {
+  width: 2.5rem;
+  margin: auto 0;
+  height: 2rem;
+  border-radius: 0 1rem 1rem 0;
+  border: none;
+  /* border: 1px solid #f0eaea; */
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  background-image: url(../assets/icons/lupa.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: right;
-  border: 1px solid #f0eaea;
+  background-position-x: center;
+  background-color: rgb(250, 161, 102);
+  cursor: pointer;
+}
+
+.auxiliar {
+  display: flex;
+  min-width: 40vw;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .categoria {
@@ -76,6 +122,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 35em;
+
 }
 
 .categoria img {
@@ -94,4 +141,6 @@ p {
 .row {
   display: flex;
   justify-content: space-evenly;
+  border-top: 2px solid rgb(250, 161, 102);
+  background-color: #fff;
 }
