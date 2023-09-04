@@ -54,7 +54,7 @@ p {
 
 .promo {
   /* TODO: colocar animação para movimentar texto de promoções */
-  background-color: #2b444d;
+  background-color: #6D8884;
   color: #fff;
   height: 2rem;
   display: flex;
@@ -64,7 +64,8 @@ p {
 
 .main-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background-color: #fff9f0;
   justify-content: space-evenly;
   position: sticky;
   top: 0;
@@ -104,34 +105,37 @@ p {
 
 .logo {
   display: flex;
-  width: 90px;
-  padding: 1rem;
+  justify-content: center;
+  width: 130px;
+  padding: 1rem 4rem 1rem 0;
+  border-right: 1px solid #2b444d;
 }
 
 .busca {
-  min-width: 20vw;
+  min-width: 30vw;
   height: 2rem;
   margin: auto 0;
-  border-radius: 1rem 0 0 1rem;
-  border: 1px solid #2b444d;
-  /* border-right: none; */
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-  /* background-color: #f1e9de; */
+  /* border-radius: .5rem 0 0 0; */
+  border: none;
+  border-bottom: 1px solid #2b444d;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .lupa {
   width: 2.5rem;
   margin: auto 0;
   height: 2rem;
-  border-radius: 0 1rem 1rem 0;
-  border: 1px solid #2b444d;
-  border-left: none;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  /* border-radius: 0 1rem 1rem 0; */
+  border: none;
+  border-left: 1px solid #2b444d;
+  border-bottom: 1px solid #2b444d;
+  /* border-left: none; */
+  /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2); */
   background-image: url(../assets/icons/lupa-cinza.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
-  background-color: #fff;
+  background-color: #6d888469;
   cursor: pointer;
 }
 
@@ -140,6 +144,7 @@ p {
   min-width: 40vw;
   justify-content: center;
   flex-direction: row;
+  padding: 1rem;
 }
 
 .categoria {
@@ -168,6 +173,16 @@ p {
 
 .row {
   display: flex;
+  justify-content: space-evenly;
+  background-color: #fff9f0;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  /* margin-right: 8rem; */
+  flex-direction: column;
   justify-content: space-evenly;
   background-color: #fff9f0;
 }
