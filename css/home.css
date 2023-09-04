@@ -1,6 +1,30 @@
 /* TODO: criar variáveis para as cores */
 /* TODO: separar css do header e footer e básicos do main para repetir nas outras páginas */
 
+/* BARRA DE SCROLL */
+html ::-webkit-scrollbar {
+  width: 5px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #2b444d;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #f1e9de;
+}
+
+paleta {
+  cor1: var(#2b444d);
+  cor2: var(#725740);
+  cor3: var(#6D8884);
+  cor4: var(#c0996c);
+  cor5: var(#f1e9de);
+  cor6: var(#fff9f0)
+}
+
+
 body {
   display: flex;
   padding: 0;
@@ -30,7 +54,7 @@ p {
 
 .promo {
   /* TODO: colocar animação para movimentar texto de promoções */
-  background-color: rgb(250, 161, 102);
+  background-color: #2b444d;
   color: #fff;
   height: 2rem;
   display: flex;
@@ -44,19 +68,20 @@ p {
   justify-content: space-evenly;
   position: sticky;
   top: 0;
+
 }
 
 .logado {
   display: flex;
   justify-content: space-evenly;
-  min-width: 30vw;
+  min-width: 20vw;
   align-items: center;
 }
 
 .login,
 .favoritos,
 .carrinho {
-  background-color: #fff;
+  background-color: #fff9f0;
   border: none;
   height: 2rem;
   background-size: contain;
@@ -66,29 +91,32 @@ p {
 }
 
 .login {
-  background-image: url(../assets/icons/do-utilizador.png);
+  background-image: url(../assets/icons/client.png);
 }
 
 .favoritos {
-  background-image: url(../assets/icons/favorito.png);
+  background-image: url(../assets/icons/favorito-empty.png);
 }
 
 .carrinho {
-  background-image: url(../assets/icons/sacola-de-compras.png);
+  background-image: url(../assets/icons/shopping-bag.png);
 }
 
 .logo {
   display: flex;
-  width: 100px;
+  width: 90px;
+  padding: 1rem;
 }
 
 .busca {
-  min-width: 30vw;
+  min-width: 20vw;
   height: 2rem;
   margin: auto 0;
   border-radius: 1rem 0 0 1rem;
-  border: 1px solid #f0eaea;
+  border: 1px solid #2b444d;
+  /* border-right: none; */
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  /* background-color: #f1e9de; */
 }
 
 .lupa {
@@ -96,14 +124,14 @@ p {
   margin: auto 0;
   height: 2rem;
   border-radius: 0 1rem 1rem 0;
-  border: none;
-  /* border: 1px solid #f0eaea; */
+  border: 1px solid #2b444d;
+  border-left: none;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-  background-image: url(../assets/icons/lupa.png);
+  background-image: url(../assets/icons/lupa-cinza.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
-  background-color: rgb(250, 161, 102);
+  background-color: #fff;
   cursor: pointer;
 }
 
@@ -141,6 +169,5 @@ p {
 .row {
   display: flex;
   justify-content: space-evenly;
-  border-top: 2px solid rgb(250, 161, 102);
-  background-color: #fff;
+  background-color: #fff9f0;
 }
