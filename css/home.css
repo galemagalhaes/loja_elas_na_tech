@@ -1,10 +1,173 @@
-body{
+/* TODO: criar variáveis para as cores */
+/* TODO: separar css do header e footer e básicos do main para repetir nas outras páginas */
+
+/* BARRA DE SCROLL */
+html ::-webkit-scrollbar {
+  width: 5px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #2b444d;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #f1e9de;
+}
+
+paleta {
+  cor1: var(#2b444d);
+  cor2: var(#725740);
+  cor3: var(#6D8884);
+  cor4: var(#c0996c);
+  cor5: var(#f1e9de);
+  cor6: var(#fff9f0)
+}
+
+
+body {
   display: flex;
+  padding: 0;
+  margin: 0;
   width: 100%;
   flex-direction: column;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.banner img{
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+
+.banner img {
   display: flex;
+  width: 95%;
+  height: 60vh;
+  margin: 3rem auto;
+}
+
+.promo {
+  /* TODO: colocar animação para movimentar texto de promoções */
+  background-color: #2b444d;
+  color: #fff;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+
+}
+
+.logado {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 20vw;
+  align-items: center;
+}
+
+.login,
+.favoritos,
+.carrinho {
+  background-color: #fff9f0;
+  border: none;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.login {
+  background-image: url(../assets/icons/client.png);
+}
+
+.favoritos {
+  background-image: url(../assets/icons/favorito-empty.png);
+}
+
+.carrinho {
+  background-image: url(../assets/icons/shopping-bag.png);
+}
+
+.logo {
+  display: flex;
+  width: 90px;
+  padding: 1rem;
+}
+
+.busca {
+  min-width: 20vw;
+  height: 2rem;
+  margin: auto 0;
+  border-radius: 1rem 0 0 1rem;
+  border: 1px solid #2b444d;
+  /* border-right: none; */
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  /* background-color: #f1e9de; */
+}
+
+.lupa {
+  width: 2.5rem;
+  margin: auto 0;
+  height: 2rem;
+  border-radius: 0 1rem 1rem 0;
+  border: 1px solid #2b444d;
+  border-left: none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  background-image: url(../assets/icons/lupa-cinza.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.auxiliar {
+  display: flex;
+  min-width: 40vw;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  background-color: rgb(225, 204, 245);
+  align-items: center;
+  justify-content: center;
+  height: 35em;
+
+}
+
+.categoria img {
+  width: 200px;
+
+}
+
+.menu-categorias {
+  display: flex;
+  gap: 2.5px;
+  width: 95%;
+  margin: 3rem auto;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff9f0;
 }

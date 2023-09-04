@@ -1,11 +1,14 @@
-.menu{
+.menu {
   display: inline-block;
-  background-color: antiquewhite;
+  background-color: #fff9f0;
   padding: 1rem;
+  border-top: 1px solid #2b444d;
 }
-.menu a{
+
+.menu a {
   margin: 1rem;
   padding: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #2b444d;
+
 }
