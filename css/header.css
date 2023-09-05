@@ -1,0 +1,103 @@
+html {
+
+    --cor1: #2b444d;
+    --cor2: #725740;
+    --cor3: #6D8884;
+    --cor4: #c0996c;
+    --cor5: #f1e9de;
+    --cor6: #fff9f0;
+
+    --cor3transp: #6d888488;
+
+    --base1: #fff;
+}
+
+.promo {
+    /* TODO: colocar animação para movimentar texto de promoções */
+    background-color: var(--cor3);
+    color: var(--base1);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor6);
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+
+}
+
+.logado {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 20vw;
+    align-items: center;
+}
+
+.login,
+.favoritos,
+.carrinho {
+    background-color: var(--cor6);
+    border: none;
+    height: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.login {
+    background-image: url(../assets/icons/client.png);
+}
+
+.favoritos {
+    background-image: url(../assets/icons/favorito-empty.png);
+}
+
+.carrinho {
+    background-image: url(../assets/icons/shopping-bag.png);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    padding: 1rem 4rem 1rem 0;
+    border-right: 1px solid var(--cor1);
+}
+
+.busca {
+    min-width: 30vw;
+    height: 2rem;
+    margin: auto 0;
+    border: none;
+    border-bottom: 1px solid var(--cor1);
+}
+
+.lupa {
+    width: 2.5rem;
+    margin: auto 0;
+    height: 2rem;
+    border: none;
+    border-left: 1px solid var(--cor1);
+    border-bottom: 1px solid var(--cor1);
+    background-image: url(../assets/icons/lupa-cinza.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: var(--cor3transp);
+    cursor: pointer;
+}
+
+.auxiliar {
+    display: flex;
+    min-width: 40vw;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+}
