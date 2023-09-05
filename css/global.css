@@ -10,19 +10,23 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-main {
+/* main {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-}
+} */
 
 a {
     text-decoration: none;
 }
 
+
+
 p {
     padding: 1.5rem;
     text-align: justify;
     line-height: 1.5rem;
+    display: flex;
+    margin: 0
 }

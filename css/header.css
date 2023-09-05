@@ -67,7 +67,7 @@ html {
     display: flex;
     justify-content: center;
     width: 130px;
-    padding: 1rem 4rem 1rem 0;
+    padding: 1rem 2rem;
     border-right: 1px solid var(--cor1);
 }
 

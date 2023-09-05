@@ -22,6 +22,7 @@
   <header class="main-header">
     <!-- TODO: colocar link da home no logo dos headers -->
     <img src="assets/icons/logo.png" alt="logo" class="logo">
+
     <div class="column">
       <div class="row">
         <div class="auxiliar">
@@ -48,63 +49,69 @@
   </header>
 
   <main>
-    <!-- <div style="width: 100%; height: 600px;"></div> -->
     <!-- TODO: criar carrossel com JS -->
-    <div class="banner">
-      <div class="div-banner-aux ">
+    <section class="banner">
+      <p class="banner-p">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cupiditate ut accusamus
+        accusantium dolore
+        rem obcaecati reiciendis enim consequatur magni.
+      </p>
 
-        <h1>Art & Decor</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cupiditate ut accusamus
-          accusantium dolore
-          rem obcaecati reiciendis enim consequatur magni.
-        </p>
+      <img src="./assets/img/espacos/sala3.jpg" alt="parede com fundo escuro vibrante poltrona mesinha e vaso de planta"
+        class="banner-img">
+    </section>
 
+    <section class="destaques-promocao ">
+      <h2 class="titulo-sessao">Destaques em Promoção</h2>
+      <div class="destaques-categorias">
+        <div class="destaque-item">
+          <div class="destaques-img">
+            <img src="./assets/img/vasos/vaso1.jpg" alt="">
+          </div>
+          <div class="destaques-p">
+            <p>Até 20% OFF</p>
+          </div>
 
+        </div>
+        <div class="destaque-item">
+          <div class="destaques-img">
+            <img src="./assets/img/luminaria/luz2.jpg" alt="">
+          </div>
+          <div class="destaques-p">
+            <p>Até 30% OFF</p>
+          </div>
+        </div>
+        <div class="destaque-item">
+          <div class="destaques-img">
+            <img src="./assets/img/petiscos/petisco1.jpg" alt="">
+          </div>
+          <div class="destaques-p">
+            <p>Até 40% OFF</p>
+          </div>
+        </div>
+        <div class="destaque-item">
+          <div class="destaques-img">
+            <img src="./assets/img/almofadas/almofada3.jpg" alt="">
+          </div>
+          <div class="destaques-p">
+            <p>Até 50% OFF</p>
+          </div>
+        </div>
       </div>
-      <img src="./assets/img/espacos/sala3.jpg" alt="">
-    </div>
+    </section>
 
-    <div class="menu-categorias">
-      <a href="#">
-        <div class="categoria">
-          <img src="/assets/img/vasos/vaso2.jpg" alt="" class="card">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
-            laudantium molestias aspernatur! Fuga, dolores sed.</p>
-        </div>
-      </a>
-      <a href="#">
-        <div class="categoria">
-          <img src="/assets/img/luminaria/luz2.jpg" alt="">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
-            laudantium molestias aspernatur! Fuga, dolores sed.</p>
-        </div>
-      </a><a href="#">
-        <div class="categoria">
-          <img src="/assets/img/tapetes/tapete1.jpg" alt="">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
-            laudantium molestias aspernatur! Fuga, dolores sed.</p>
-        </div>
-      </a><a href="#">
-        <div class="categoria">
-          <img src="/assets/img/quadros/quadro3.jpg" alt="">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
-            laudantium molestias aspernatur! Fuga, dolores sed.</p>
-        </div>
-      </a>
-    </div>
 
   </main>
   <footer class="footer">
     <div class="alinha">
       <div class="div-footer">
         <h3> Ajuda</h3>
-        <a href="#" class="ajuda">Atendimento</a>
-        <a href="#" class="ajuda">Meu Cadastro</a>
-        <a href="#" class="ajuda">F.A.Q.</a>
-        <a href="#" class="ajuda">Acompanhe seu pedido</a>
-        <a href="#" class="ajuda">Trocas e devoluções</a>
-        <a href="#" class="ajuda">Nossas lojas</a>
+        <a href="./paginas/atendimento.html" class="ajuda">Atendimento</a>
+        <a href="./paginas/meu-cadastro.html" class="ajuda">Meu Cadastro</a>
+        <a href="./paginas/faq.html" class="ajuda">F.A.Q.</a>
+        <a href="./paginas/acompanhe-pedido.html" class="ajuda">Acompanhe seu pedido</a>
+        <a href="./paginas/trocas-devolucoes.html" class="ajuda">Trocas e devoluções</a>
+        <a href="./paginas/nossas-lojas.html" class="ajuda">Nossas lojas</a>
       </div>
       <div class="div-footer">
         <h3>Formas de Pagamento</h3>
@@ -121,7 +128,8 @@
       </div>
       <div class="div-footer">
         <h3>Institucional</h3>
-        <a href="#" class="ajuda">Polícas de Privacidade</a>
+        <!-- FIXME: Políticas está escrito errado nas outras páginas, arrumar!! -->
+        <a href="#" class="ajuda">Políticas de Privacidade</a>
         <a href="#" class="ajuda">Blog</a>
         <a href="#" class="ajuda">Cupons</a>
       </div>
