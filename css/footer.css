@@ -1,3 +1,17 @@
+html {
+
+    --cor1: #2b444d;
+    --cor2: #725740;
+    --cor3: #6D8884;
+    --cor4: #c0996c;
+    --cor5: #f1e9de;
+    --cor6: #fff9f0;
+
+    --cor3transp: #6d888488;
+
+    --base1: #fff;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -5,8 +19,8 @@
     max-width: 100%;
     padding: 2rem 1rem 0;
     height: 25rem;
-    background-color: #2b444d;
-    color: #fff9f0;
+    background-color: var(--cor1);
+    color: var(--cor6);
 }
 
 
@@ -63,5 +77,5 @@
 }
 
 .p-rodape {
-    border-top: 1px solid #fff9f0;
+    border-top: 1px solid var(--cor6);
 }

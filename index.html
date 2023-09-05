@@ -5,17 +5,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/scroll.css">
   <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/menu.css">
   <link rel="stylesheet" href="./css/footer.css">
-  <title>Artes &amp; Artistas</title>
+  <title>Art &amp; Decor</title>
 </head>
+<!-- FIXME:preencher 'alts' e demais elementos de acessibilidade -->
 
 <body>
   <!-- TODO: transformar header e footer em componentes -->
   <div class="promo">Promoções</div>
 
   <header class="main-header">
+    <!-- TODO: colocar link da home no logo dos headers -->
     <img src="assets/icons/logo.png" alt="logo" class="logo">
     <div class="column">
       <div class="row">
@@ -33,47 +38,56 @@
           <a href="#" class="carrinho"></a>
         </div>
       </div>
-
       <nav class="menu">
-        <a href="#">Todas as categorias / Produtos</a>
+        <a href="./paginas/produtos.html">Produtos</a>
         <a href="./paginas/contato.html">Fale Conosco</a>
         <a href="./paginas/carreiras.html">Trabalhe Conosco</a>
-        <a href="#">Sobre a Autora</a>
+        <a href="./paginas/sobre.html">Sobre a Autora</a>
       </nav>
     </div>
-
-
   </header>
 
   <main>
-    <div style="width: 100%; height: 600px;"></div>
+    <!-- <div style="width: 100%; height: 600px;"></div> -->
+    <!-- TODO: criar carrossel com JS -->
     <div class="banner">
-      <img src="./assets/img/arranjo-de-macrame-com-espaco-de-copia.jpg" alt="banner principal arranjo macramê">
+      <div class="div-banner-aux ">
+
+        <h1>Art & Decor</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cupiditate ut accusamus
+          accusantium dolore
+          rem obcaecati reiciendis enim consequatur magni.
+        </p>
+
+
+      </div>
+      <img src="./assets/img/espacos/sala3.jpg" alt="">
     </div>
 
     <div class="menu-categorias">
       <a href="#">
         <div class="categoria">
-          <img src="/assets/logo.png" alt="" class="card">
+          <img src="/assets/img/vasos/vaso2.jpg" alt="" class="card">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
             laudantium molestias aspernatur! Fuga, dolores sed.</p>
         </div>
       </a>
       <a href="#">
         <div class="categoria">
-          <img src="/assets/logo.png" alt="">
+          <img src="/assets/img/luminaria/luz2.jpg" alt="">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
             laudantium molestias aspernatur! Fuga, dolores sed.</p>
         </div>
       </a><a href="#">
         <div class="categoria">
-          <img src="/assets/logo.png" alt="">
+          <img src="/assets/img/tapetes/tapete1.jpg" alt="">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
             laudantium molestias aspernatur! Fuga, dolores sed.</p>
         </div>
       </a><a href="#">
         <div class="categoria">
-          <img src="/assets/logo.png" alt="">
+          <img src="/assets/img/quadros/quadro3.jpg" alt="">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia culpa cum provident optio
             laudantium molestias aspernatur! Fuga, dolores sed.</p>
         </div>

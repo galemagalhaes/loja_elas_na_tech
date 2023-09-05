@@ -1,180 +1,83 @@
-/* TODO: criar variáveis para as cores */
 /* TODO: separar css do header e footer e básicos do main para repetir nas outras páginas */
 
-/* BARRA DE SCROLL */
-html ::-webkit-scrollbar {
-  width: 5px;
-}
+html {
 
-html ::-webkit-scrollbar-thumb {
-  border-radius: 50px;
-  background: #2b444d;
-}
+  --cor1: #2b444d;
+  --cor2: #725740;
+  --cor3: #6D8884;
+  --cor4: #c0996c;
+  --cor5: #f1e9de;
+  --cor6: #fff9f0;
 
-html ::-webkit-scrollbar-track {
-  background: #f1e9de;
-}
+  --cor1transp: #2b444dbe;
+  --cor3transp: #6d888488;
 
-paleta {
-  cor1: var(#2b444d);
-  cor2: var(#725740);
-  cor3: var(#6D8884);
-  cor4: var(#c0996c);
-  cor5: var(#f1e9de);
-  cor6: var(#fff9f0)
+  --base1: #fff;
 }
 
 
-body {
+
+
+
+.banner {
   display: flex;
-  padding: 0;
-  margin: 0;
   width: 100%;
-  flex-direction: column;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1rem auto;
+  justify-content: space-between;
 }
-
-a {
-  text-decoration: none;
-}
-
-p {
-  padding: 1.5rem;
-  text-align: justify;
-  line-height: 1.5rem;
-}
-
 
 .banner img {
   display: flex;
-  width: 95%;
-  height: 60vh;
-  margin: 3rem auto;
+  width: auto;
+  height: 90vh;
 }
 
-.promo {
-  /* TODO: colocar animação para movimentar texto de promoções */
-  background-color: #6D8884;
-  color: #fff;
-  height: 2rem;
+.div-banner-aux {
   display: flex;
-  justify-content: center;
+  background-color: var(--cor4);
+  flex-direction: column;
+  color: var(--base1);
   align-items: center;
 }
 
-.main-header {
-  display: flex;
-  flex-direction: row;
-  background-color: #fff9f0;
-  justify-content: space-evenly;
-  position: sticky;
-  top: 0;
-
-}
-
-.logado {
-  display: flex;
-  justify-content: space-evenly;
-  min-width: 20vw;
-  align-items: center;
-}
-
-.login,
-.favoritos,
-.carrinho {
-  background-color: #fff9f0;
-  border: none;
-  height: 2rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 2rem;
-  cursor: pointer;
-}
-
-.login {
-  background-image: url(../assets/icons/client.png);
-}
-
-.favoritos {
-  background-image: url(../assets/icons/favorito-empty.png);
-}
-
-.carrinho {
-  background-image: url(../assets/icons/shopping-bag.png);
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  width: 130px;
-  padding: 1rem 4rem 1rem 0;
-  border-right: 1px solid #2b444d;
-}
-
-.busca {
-  min-width: 30vw;
-  height: 2rem;
-  margin: auto 0;
-  /* border-radius: .5rem 0 0 0; */
-  border: none;
-  border-bottom: 1px solid #2b444d;
-  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
-}
-
-.lupa {
-  width: 2.5rem;
-  margin: auto 0;
-  height: 2rem;
-  /* border-radius: 0 1rem 1rem 0; */
-  border: none;
-  border-left: 1px solid #2b444d;
-  border-bottom: 1px solid #2b444d;
-  /* border-left: none; */
-  /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2); */
-  background-image: url(../assets/icons/lupa-cinza.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-color: #6d888469;
-  cursor: pointer;
-}
-
-.auxiliar {
-  display: flex;
-  min-width: 40vw;
-  justify-content: center;
-  flex-direction: row;
-  padding: 1rem;
+.div-banner-aux h1 {
+  text-align: center;
 }
 
 .categoria {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(225, 204, 245);
+  background-color: var(--base1);
   align-items: center;
   justify-content: center;
   height: 35em;
-
 }
 
 .categoria img {
-  width: 200px;
-
+  width: 100%;
+  height: 100%;
 }
 
 .menu-categorias {
   display: flex;
-  gap: 2.5px;
-  width: 95%;
+  gap: .5rem;
+  width: 90%;
+  height: 100%;
   margin: 3rem auto;
+  background-color: var(--cor5);
+}
 
+.menu-categorias p {
+  background-color: var(--cor1transp);
+  /* height: 50%; */
+  color: var(--base1);
 }
 
 .row {
   display: flex;
   justify-content: space-evenly;
-  background-color: #fff9f0;
+  background-color: var(--cor6);
 }
 
 .column {
@@ -184,5 +87,5 @@ p {
   /* margin-right: 8rem; */
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #fff9f0;
+  background-color: var(--cor6);
 }

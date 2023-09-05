@@ -1,8 +1,22 @@
+html {
+
+  --cor1: #2b444d;
+  --cor2: #725740;
+  --cor3: #6D8884;
+  --cor4: #c0996c;
+  --cor5: #f1e9de;
+  --cor6: #fff9f0;
+
+  --cor3transp: #6d888488;
+
+  --base1: #fff;
+}
+
 .menu {
   display: inline-flex;
-  background-color: #fff9f0;
+  background-color: var(--cor6);
   /* padding: 1rem; */
-  border-top: 1px solid #2b444d;
+  border-top: 1px solid var(--cor1);
   justify-content: space-between;
 
 
@@ -12,5 +26,5 @@
   /* margin: 1rem; */
   padding: 1rem;
   text-decoration: none;
-  color: #2b444d;
+  color: var(--cor1);
 }
