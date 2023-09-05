@@ -13,18 +13,18 @@ html {
 }
 
 .menu {
-  display: inline-flex;
+  display: flex;
   background-color: var(--cor6);
   /* padding: 1rem; */
   border-top: 1px solid var(--cor1);
-  justify-content: space-between;
+  justify-content: space-evenly;
 
 
 }
 
 .menu a {
   /* margin: 1rem; */
-  padding: 1rem;
+  padding: 1rem 0 0;
   text-decoration: none;
   color: var(--cor1);
 }

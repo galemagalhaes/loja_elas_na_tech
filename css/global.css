@@ -25,4 +25,6 @@ p {
     padding: 1.5rem;
     text-align: justify;
     line-height: 1.5rem;
+    display: flex;
+    margin: 0
 }
