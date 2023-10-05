@@ -1,16 +1,4 @@
-html {
 
-    --cor1: #2b444d;
-    --cor2: #725740;
-    --cor3: #6D8884;
-    --cor4: #c0996c;
-    --cor5: #f1e9de;
-    --cor6: #fff9f0;
-
-    --cor3transp: #6d888488;
-
-    --base1: #fff;
-}
 
 .promo {
     /* TODO: colocar animação para movimentar texto de promoções */

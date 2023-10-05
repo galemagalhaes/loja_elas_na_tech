@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/contato.css">
   <link rel="stylesheet" href="../css/footer.css">
   <title>Trabalhe Conosco</title>
 </head>
@@ -45,23 +46,27 @@
     <legend>Faça parte da nossa equipe</legend>
     <fieldset>
       <label for="nome">Nome</label>
-      <input type="text" id="nome" />
+      <input type="text" id="nome" required placeholder="Deixe seu nome completo" />
       <label for="telefone">Telefone</label>
-      <input type="phone" id="telefone" />
+      <input type="phone" id="telefone" required placeholder="(00) 12345-6789" />
       <label for="endereco">Endereço</label>
-      <input type="text" id="endereco" />
+      <input type="text" id="endereco" placeholder="Rua xxxxxxxx, 000 - Bairro - Cidade - UF" />
     </fieldset>
     <fieldset>
       <label for="experiencia">Experiência Profissional</label>
-      <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
+      <textarea name="experiencia" id="experiencia" cols="30" rows="10"
+        placeholder="Empresa | Função | Tempo de experiência | Descrição de atribuições"></textarea>
       <label for="formacao">Formação</label>
-      <textarea name="formacao" id="formacao" cols="30" rows="10"></textarea>
+      <textarea name="formacao" id="formacao" cols="30" rows="10" required
+        placeholder="Instituição | Curso | Ano de Formação | Breve descrição"></textarea>
       <label for="cursos">Cursos Realizados</label>
-      <textarea name="cursos" id="cursos" cols="30" rows="10"></textarea>
+      <textarea name="cursos" id="cursos" cols="30" rows="10"
+        placeholder="Instituição | Curso | Breve descrição"></textarea>
     </fieldset>
     <fieldset>
       <label for="linkedin">LinkedIn</label>
-      <input type="text" id="linkedin">
+      <input type="text" id="linkedin" required placeholder="URL do seu linkedin">
+      <button type="submit" class="btn">Enviar</button>
     </fieldset>
   </form>
   <footer class="footer">

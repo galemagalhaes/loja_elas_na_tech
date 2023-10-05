@@ -1,5 +1,18 @@
 /* BARRA DE SCROLL */
 
+html {
+
+    --cor1: #2b444d;
+    --cor2: #725740;
+    --cor3: #6D8884;
+    --cor4: #c0996c;
+    --cor5: #f1e9de;
+    --cor6: #fff9f0;
+
+    --cor3transp: #6d888488;
+
+    --base1: #fff;
+}
 
 body {
     display: flex;
@@ -29,4 +42,9 @@ p {
     line-height: 1.5rem;
     display: flex;
     margin: 0
+}
+
+.titulo-pagina {
+    display: flex;
+    justify-content: center;
 }
