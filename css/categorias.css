@@ -86,7 +86,7 @@ main {
 
 /* ----------------------------------------------------------------------------------- */
 .categoria-almofada {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('../assets/img/almofadas/almofada-modelo1.webp') no-repeat center;
     background-size: cover;
 }
 
