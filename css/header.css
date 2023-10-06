@@ -1,19 +1,4 @@
-html {
-
-    --cor1: #2b444d;
-    --cor2: #725740;
-    --cor3: #6D8884;
-    --cor4: #c0996c;
-    --cor5: #f1e9de;
-    --cor6: #fff9f0;
-
-    --cor3transp: #6d888488;
-
-    --base1: #fff;
-}
-
 .promo {
-    /* TODO: colocar animação para movimentar texto de promoções */
     background-color: var(--cor3);
     color: var(--base1);
     height: 2rem;
@@ -77,6 +62,7 @@ html {
     margin: auto 0;
     border: none;
     border-bottom: 1px solid var(--cor1);
+    outline: none;
 }
 
 .lupa {
@@ -86,7 +72,7 @@ html {
     border: none;
     border-left: 1px solid var(--cor1);
     border-bottom: 1px solid var(--cor1);
-    background-image: url(../assets/icons/lupa-cinza.png);
+    background-image: url('../assets/icons/lupa-cinza.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;

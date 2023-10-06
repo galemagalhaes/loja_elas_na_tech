@@ -11,15 +11,21 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/menu.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/categorias.css">
+  <link rel="website icon" type="png" href="./assets/icons/logo.png" />
+
   <title>Art &amp; Decor</title>
 </head>
 <!-- FIXME:preencher 'alts' e demais elementos de acessibilidade -->
 
 <body>
-  <!-- TODO: transformar header e footer em componentes -->
-  <div class="promo">Promoções</div>
+
+  <div class="promo">
+    <p id="animacao">Aproveite as promoções do mês</p>
+  </div>
 
   <header class="main-header">
+
     <!-- TODO: colocar link da home no logo dos headers -->
     <img src="assets/icons/logo.png" alt="logo" class="logo">
 
@@ -31,10 +37,7 @@
         </div>
 
         <div class="logado">
-          <!-- o botão deve disparar uma ação: um popup para fazer login, caso não esteja logado -->
           <button type="button" class="login"></button>
-          <!-- TODO: colocar mensagem para indicar que está ou não logado, junto ao botão de cliente-->
-          <!-- os links são apenas navegação para respectivas páginas -->
           <a href="#" class="favoritos"></a>
           <a href="#" class="carrinho"></a>
         </div>
@@ -49,24 +52,27 @@
   </header>
 
   <main>
-    <!-- TODO: criar carrossel com JS -->
     <section class="banner">
       <p class="banner-p">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cupiditate ut accusamus
-        accusantium dolore
-        rem obcaecati reiciendis enim consequatur magni.
+        Somos a Art & Decor, empresa especializada em casa & decoração que possui grande variedade de produtos, entre
+        artigos de decoração, utensílios de cozinha, mesa posta, eletroportáteis, cutelaria, cama, mesa e banho e
+        organização.
+        <br>
+        Aprimorando o objetivo de proporcionar total facilidade ao cliente, a Art & Decor oferece atendimento
+        personalizado atrelado a um ambiente agradável e diferenciado.
+
       </p>
 
       <img src="./assets/img/espacos/sala3.jpg" alt="parede com fundo escuro vibrante poltrona mesinha e vaso de planta"
         class="banner-img">
     </section>
 
+    <h1 class="titulo-pagina">Destaques </h1>
     <section class="destaques-promocao ">
-      <h2 class="titulo-sessao">Destaques em Promoção</h2>
       <div class="destaques-categorias">
         <div class="destaque-item">
           <div class="destaques-img">
-            <img src="./assets/img/vasos/vaso1.jpg" alt="">
+            <img src="./assets/img/carrinhos/carrinho-modelo1.webp" alt="">
           </div>
           <div class="destaques-p">
             <p>Até 20% OFF</p>
@@ -75,7 +81,7 @@
         </div>
         <div class="destaque-item">
           <div class="destaques-img">
-            <img src="./assets/img/luminaria/luz2.jpg" alt="">
+            <img src="./assets/img/luminaria/luminaria-chile1.webp" alt="">
           </div>
           <div class="destaques-p">
             <p>Até 30% OFF</p>
@@ -83,7 +89,7 @@
         </div>
         <div class="destaque-item">
           <div class="destaques-img">
-            <img src="./assets/img/petiscos/petisco1.jpg" alt="">
+            <img src="./assets/img/espelho/espelho-glamour1.webp" alt="">
           </div>
           <div class="destaques-p">
             <p>Até 40% OFF</p>
@@ -91,7 +97,7 @@
         </div>
         <div class="destaque-item">
           <div class="destaques-img">
-            <img src="./assets/img/almofadas/almofada3.jpg" alt="">
+            <img src="./assets/img/almofadas/almofada-modelo2.webp" alt="">
           </div>
           <div class="destaques-p">
             <p>Até 50% OFF</p>
@@ -106,12 +112,12 @@
     <div class="alinha">
       <div class="div-footer">
         <h3> Ajuda</h3>
-        <a href="./paginas/atendimento.html" class="ajuda">Atendimento</a>
-        <a href="./paginas/meu-cadastro.html" class="ajuda">Meu Cadastro</a>
-        <a href="./paginas/faq.html" class="ajuda">F.A.Q.</a>
-        <a href="./paginas/acompanhe-pedido.html" class="ajuda">Acompanhe seu pedido</a>
-        <a href="./paginas/trocas-devolucoes.html" class="ajuda">Trocas e devoluções</a>
-        <a href="./paginas/nossas-lojas.html" class="ajuda">Nossas lojas</a>
+        <a href="#" class="ajuda">Atendimento</a>
+        <a href="#" class="ajuda">Meu Cadastro</a>
+        <a href="#" class="ajuda">F.A.Q.</a>
+        <a href="#" class="ajuda">Acompanhe seu pedido</a>
+        <a href="#" class="ajuda">Trocas e devoluções</a>
+        <a href="#" class="ajuda">Nossas lojas</a>
       </div>
       <div class="div-footer">
         <h3>Formas de Pagamento</h3>
@@ -128,7 +134,7 @@
       </div>
       <div class="div-footer">
         <h3>Institucional</h3>
-        <!-- FIXME: Políticas está escrito errado nas outras páginas, arrumar!! -->
+
         <a href="#" class="ajuda">Políticas de Privacidade</a>
         <a href="#" class="ajuda">Blog</a>
         <a href="#" class="ajuda">Cupons</a>
@@ -153,7 +159,7 @@
 
     <div class="p-rodape">
       <p>Minha Loja - Decor Comercial Ltda - CNPJ: 00.000.000/0001-15
-        / Rua dos Bobos, 0 - Vila Aquarela - CEP: 00000-000 - São Paulo / SP </p>
+        / Rua dos Bobos, 0 - Vila Aquarela - CEP: 08674-000 - Suzano / SP </p>
       <p>Minha Loja © Todos os direitos reservados</p>
     </div>
   </footer>

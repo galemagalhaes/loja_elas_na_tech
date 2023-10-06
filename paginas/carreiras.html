@@ -5,11 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="website icon" type="png" href="../assets/icons/logo.png" />
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/scroll.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/contato.css">
   <link rel="stylesheet" href="../css/footer.css">
   <title>Trabalhe Conosco</title>
 </head>
@@ -25,10 +27,7 @@
         </div>
 
         <div class="logado">
-          <!-- o botão deve disparar uma ação: um popup para fazer login, caso não esteja logado -->
           <button type="button" class="login"></button>
-          <!-- TODO: colocar mensagem para indicar que está ou não logado, junto ao botão de cliente-->
-          <!-- os links são apenas navegação para respectivas páginas -->
           <a href="#" class="favoritos"></a>
           <a href="#" class="carrinho"></a>
         </div>
@@ -45,23 +44,27 @@
     <legend>Faça parte da nossa equipe</legend>
     <fieldset>
       <label for="nome">Nome</label>
-      <input type="text" id="nome" />
+      <input type="text" id="nome" required placeholder="Deixe seu nome completo" class="form" />
       <label for="telefone">Telefone</label>
-      <input type="phone" id="telefone" />
+      <input type="phone" id="telefone" required placeholder="(00) 12345-6789" class="form" />
       <label for="endereco">Endereço</label>
-      <input type="text" id="endereco" />
+      <input type="text" id="endereco" placeholder="Rua xxxxxxxx, 000 - Bairro - Cidade - UF" class="form" />
     </fieldset>
     <fieldset>
       <label for="experiencia">Experiência Profissional</label>
-      <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
+      <textarea name="experiencia" id="experiencia" cols="30" rows="10"
+        placeholder="Empresa | Função | Tempo de experiência | Descrição de atribuições"></textarea>
       <label for="formacao">Formação</label>
-      <textarea name="formacao" id="formacao" cols="30" rows="10"></textarea>
+      <textarea name="formacao" id="formacao" cols="30" rows="10" required
+        placeholder="Instituição | Curso | Ano de Formação | Breve descrição"></textarea>
       <label for="cursos">Cursos Realizados</label>
-      <textarea name="cursos" id="cursos" cols="30" rows="10"></textarea>
+      <textarea name="cursos" id="cursos" cols="30" rows="10"
+        placeholder="Instituição | Curso | Breve descrição"></textarea>
     </fieldset>
     <fieldset>
       <label for="linkedin">LinkedIn</label>
-      <input type="text" id="linkedin">
+      <input type="text" id="linkedin" required placeholder="URL do seu linkedin" class="form">
+      <button type="submit" class="btn">Enviar</button>
     </fieldset>
   </form>
   <footer class="footer">
@@ -114,7 +117,7 @@
 
     <div class="p-rodape">
       <p>Minha Loja - Decor Comercial Ltda - CNPJ: 00.000.000/0001-15
-        / Rua dos Bobos, 0 - Vila Aquarela - CEP: 00000-000 - São Paulo / SP </p>
+        / Rua dos Bobos, 0 - Vila Aquarela - CEP: 08674-000 - Suzano / SP </p>
       <p>Minha Loja © Todos os direitos reservados</p>
     </div>
   </footer>

@@ -15,10 +15,6 @@ html {
   --base1: #fff;
 }
 
-
-
-
-
 .banner {
   display: flex;
   width: 100%;
@@ -39,12 +35,6 @@ html {
   color: var(--base1);
 }
 
-.titulo-sessao {
-  font-size: 3rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  color: var(--cor2);
-}
 
 .destaques-promocao,
 .destaques-categorias {
@@ -97,17 +87,24 @@ html {
   align-items: center;
 }
 
-.row {
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--cor6);
+
+
+#animacao {
+  animation-timing-function: linear;
+  width: 50%;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
 }
 
-.column {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: var(--cor6);
+
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
 }
