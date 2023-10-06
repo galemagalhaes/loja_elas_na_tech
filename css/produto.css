@@ -1,0 +1,132 @@
+.produto {
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+
+
+
+.produto-foto {
+    width: 50%;
+
+}
+
+.produto-info {
+    width: 35%;
+    color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-titulo {
+    padding: 1rem 0 0;
+    margin: 0;
+}
+
+/* FIXME: arrumar tamanho do hr para ficar igual/proporcional ao titulo */
+.produto-info hr {
+    margin: 0;
+    width: 100%;
+
+}
+
+.texto-pequeno {
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+    color: var(--cor3);
+}
+
+.texto-medio {
+    font-size: medium;
+    padding: 1rem 0;
+    margin: 0;
+    color: var(--cor1);
+}
+
+.preco {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    margin: 0;
+    color: var(--cor1);
+}
+
+.comprar {
+    display: flex;
+    justify-content: space-between;
+    width: 76.5%;
+}
+
+.comprar-input {
+    display: flex;
+    width: 15%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.comprar-button {
+    display: flex;
+    border: none;
+    width: 80%;
+    justify-content: center;
+    background-color: var(--cor1);
+    cursor: pointer;
+    font-size: small;
+    padding: 0.6rem;
+    color: var(--base1);
+    /* TODO: adicionar icone sacola branca */
+}
+
+.simula-entrega-button {
+    border: none;
+    border-left: 1px solid var(--cor1);
+    border-bottom: 1px solid var(--cor1);
+    background-color: var(--cor3transp);
+    cursor: pointer;
+    font-size: small;
+    padding: 0.6rem;
+    color: var(--cor1transp);
+}
+
+.simula-entrega-input {
+    height: 2rem;
+    margin: auto 0;
+    border: none;
+    border-bottom: 1px solid var(--cor1);
+    outline: none;
+    width: 60%;
+}
+
+.simula-entrega {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 2.5rem
+}
+
+.navegacao {
+    padding: 1rem 0;
+    color: var(--cor1);
+}
+
+
+.trocar-imagem {
+    display: none;
+}
+
+.imagem {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('/assets/img/almofadas/almofada-modelo1.webp');
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#trocarImagem:checked+.imagem {
+    background-image: url('/assets/img/almofadas/almofada-modelo1-2.webp');
+}

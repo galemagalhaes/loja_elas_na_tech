@@ -10,6 +10,16 @@ main {
     flex-direction: column;
 }
 
+
+.lista-categorias {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0.5rem;
+    position: static;
+}
+
 .produtos {
     display: flex;
     width: 100%;
@@ -51,6 +61,13 @@ main {
     background-size: cover;
 }
 
+.categoria-almofada:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo1-3.webp') no-repeat center;
+    background-size: cover;
+}
+
+
+
 .categoria-espelho {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/3525/7010701690355/7510703361183/1.jpeg) no-repeat center;
     background-size: cover;
@@ -61,8 +78,8 @@ main {
     background-size: cover;
 }
 
-.categoria-petisco {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010701038482/7510701784605/0.jpg) no-repeat center;
+.categoria-roupa-cama {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://img.camicado.com.br/item/100693318/large/1.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -83,5 +100,20 @@ main {
 
 .categoria-vaso {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://img.camicado.com.br/item/100484719/large/1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-escultura {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://m.media-amazon.com/images/I/51TSfl3w5sL._AC_SX522_.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-cortina {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/4249/7010702392988/7510705425896/0.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-papel-parede {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/4250/7010702363901/7510705380203/0.jpg) no-repeat center;
     background-size: cover;
 }

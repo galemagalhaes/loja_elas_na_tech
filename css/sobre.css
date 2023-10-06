@@ -8,9 +8,9 @@ main {
 .sobre {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     margin: 2rem auto;
-    /* background-color: var(--cor5); */
+    background-color: var(--cor6);
 
 }
 
