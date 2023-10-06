@@ -1,0 +1,185 @@
+body {
+    background-color: var(--cor5);
+}
+
+main {
+    display: flex;
+    background-color: var(--cor5);
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+}
+
+
+.lista-categorias {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0.5rem;
+    position: static;
+}
+
+.produtos {
+    display: flex;
+    width: 100%;
+
+}
+
+.categorias-produtos {
+    margin: auto;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.categoria h2 {
+    color: var(--cor6);
+    padding-left: 1rem;
+}
+
+.categoria {
+    margin: 0 auto 1rem;
+    display: flex;
+    width: 24vw;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.categoria-carrinho {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo1.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-carrinho:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo1-3.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-carrinho2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-carrinho2:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo-bar2-2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-carrinho3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-artetube1.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-carrinho3:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-artetube2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-almofada {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://img.camicado.com.br/item/100503115/medium/1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-almofada:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo1-3.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-almofada2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo2.webp') no-repeat center;
+    background-size: cover;
+
+}
+
+.categoria-almofada2:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo2-2.webp') no-repeat center;
+    background-size: cover;
+
+}
+
+.categoria-almofada3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo3.webp') no-repeat center;
+    background-size: cover;
+
+}
+
+.categoria-almofada3:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo3-2.webp') no-repeat center;
+    background-size: cover;
+
+}
+
+.categoria-almofada4 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo4.webp') no-repeat center;
+    background-size: cover;
+
+}
+
+.categoria-almofada4:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo4-2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-espelho {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-bellatrix.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-espelho:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-bellatrix3.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-espelho2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-hanger.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-espelho2:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-hanger2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-espelho3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-glamour1.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-espelho3:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-glamour2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-luminaria {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010701568641/7510703129911/0.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-roupa-cama {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://img.camicado.com.br/item/100693318/large/1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+.categoria-escultura {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://m.media-amazon.com/images/I/51TSfl3w5sL._AC_SX522_.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-cortina {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/4249/7010702392988/7510705425896/0.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.categoria-papel-parede {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url(https://imgmarketplace.lojasrenner.com.br/20000/4250/7010702363901/7510705380203/0.jpg) no-repeat center;
+    background-size: cover;
+}

@@ -97,21 +97,7 @@ html {
   align-items: center;
 }
 
-.row {
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--cor6);
-}
 
-.column {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: var(--cor6);
-
-}
 
 #animacao {
   animation-timing-function: linear;

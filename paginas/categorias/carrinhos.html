@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/categorias.css">
     <link rel="stylesheet" href="/css/produto.css">
-    <title>Capa de Almofada Home Style Puntaje</title>
+    <title>Carrinhos</title>
 </head>
 
 <body>
@@ -28,10 +28,7 @@
                 </div>
 
                 <div class="logado">
-                    <!-- o botão deve disparar uma ação: um popup para fazer login, caso não esteja logado -->
                     <button type="button" class="login"></button>
-                    <!-- TODO: colocar mensagem para indicar que está ou não logado, junto ao botão de cliente-->
-                    <!-- os links são apenas navegação para respectivas páginas -->
                     <a href="#" class="favoritos"></a>
                     <a href="#" class="carrinho"></a>
                 </div>
@@ -46,41 +43,35 @@
         </div>
     </header>
 
-    <main>
+    <main class="row padding-b">
+
         <div class="navegacao">
             <a href="/index.html" class="navegacao">home &#8250;</a>
             <a href="/paginas/produtos.html" class="navegacao">produtos &#8250;</a>
-            <a href="/paginas/categorias/almofadas.html" class="navegacao">almofadas &#8250;</a>
-            <a href="#" class="navegacao">capa de almofada home style puntaje</a>
+            <a href="#" class="navegacao">carrinhos</a>
         </div>
 
-        <div class="produto">
-            <div class="produto-foto">
-                <input type="checkbox" id="almofada2" class="trocar-imagem">
-                <label for="almofada2" class="almofada2"></label>
-            </div>
-
-            <div class="produto-info">
-                <h3 class="produto-titulo">Capa de Almofada Home Style Puntaje 45 X 45 cm</h3>
-                <hr>
-                <p class="texto-pequeno">Vendido e entregue por Art & Decor</p>
-                <p class="preco">R$ 119,00</p>
-                <p class="texto-pequeno">1x R$ 119,00 s/ juros</p>
-                <p class="texto-pequeno">No cartão de crédito</p>
-                <p class="texto-medio">Outras formas de pagamento</p>
-                <div class="comprar">
-                    <input type="number" value="1" class="comprar-input">
-                    <button class="comprar-button">Comprar</button>
+        <h1 class="titulo-pagina">Carrinhos</h1>
+        <div class="row">
+            <a href="/paginas/categorias/carrinhos-produtos/carrinho-vermont-bar.html">
+                <div class="categoria categoria-carrinho2">
+                    <h2>Carrinho Bar Vermont Base Preta</h2>
                 </div>
+            </a>
 
-                <p class="texto-medio">Simular frete e prazo</p>
-                <div class="simula-entrega"><input type="text" class="simula-entrega-input"><button
-                        class="simula-entrega-button">Simular</button></div>
-                <a href="/paginas/detalhes-produto/almofadas-detalhes/capa-almofada-puntaje.html"
-                    class="navegacao">Detalhes do Produto</a>
-            </div>
+            <a href="/paginas/categorias/carrinhos-produtos/carrinho-versatile.html">
+                <div class="categoria categoria-carrinho">
+                    <h2>Carrinho Organizador Home Style Versatile</h2>
+                </div>
+            </a>
+            <a href="/paginas/categorias/carrinhos-produtos/carrinho-artetube.html">
+                <div class="categoria categoria-carrinho3">
+                    <h2>Carrinho Bar com Adega Artetube ART Montana e Preto</h2>
+                </div>
+            </a>
 
         </div>
+
     </main>
 
     <footer class="footer">
@@ -137,7 +128,6 @@
             <p>Minha Loja © Todos os direitos reservados</p>
         </div>
     </footer>
-
 </body>
 
 </html>

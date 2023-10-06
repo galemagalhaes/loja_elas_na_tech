@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/produtos.css">
+    <link rel="stylesheet" href="/css/categorias.css">
     <link rel="stylesheet" href="/css/produto.css">
     <title>Almofada Paula Ferber Brisa</title>
 </head>
@@ -28,10 +28,7 @@
                 </div>
 
                 <div class="logado">
-                    <!-- o botão deve disparar uma ação: um popup para fazer login, caso não esteja logado -->
                     <button type="button" class="login"></button>
-                    <!-- TODO: colocar mensagem para indicar que está ou não logado, junto ao botão de cliente-->
-                    <!-- os links são apenas navegação para respectivas páginas -->
                     <a href="#" class="favoritos"></a>
                     <a href="#" class="carrinho"></a>
                 </div>
@@ -47,7 +44,12 @@
     </header>
 
     <main>
-        <a href="/paginas/categorias/almofadas.html" class="navegacao">&#8592; Voltar </a>
+        <div class="navegacao">
+            <a href="/index.html" class="navegacao">home &#8250;</a>
+            <a href="/paginas/produtos.html" class="navegacao">produtos &#8250;</a>
+            <a href="/paginas/categorias/almofadas.html" class="navegacao">almofadas &#8250;</a>
+            <a href="#" class="navegacao">almofada paula ferber brisa</a>
+        </div>
 
         <div class="produto">
             <div class="produto-foto">
@@ -71,7 +73,8 @@
                 <p class="texto-medio">Simular frete e prazo</p>
                 <div class="simula-entrega"><input type="text" class="simula-entrega-input"><button
                         class="simula-entrega-button">Simular</button></div>
-                <a href="/paginas/detalhes-produto/almofada-paula.html" class="navegacao">Detalhes do Produto</a>
+                <a href="/paginas/detalhes-produto/almofadas-detalhes/almofada-paula.html" class="navegacao">Detalhes do
+                    Produto</a>
             </div>
 
         </div>
