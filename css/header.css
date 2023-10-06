@@ -72,7 +72,7 @@
     border: none;
     border-left: 1px solid var(--cor1);
     border-bottom: 1px solid var(--cor1);
-    background-image: url(../assets/icons/lupa-cinza.png);
+    background-image: url('../assets/icons/lupa-cinza.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;

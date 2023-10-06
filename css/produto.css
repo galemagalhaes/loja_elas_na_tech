@@ -5,8 +5,6 @@
     justify-content: space-between;
 }
 
-
-
 .produto-foto {
     width: 50%;
 
@@ -24,7 +22,6 @@
     margin: 0;
 }
 
-/* FIXME: arrumar tamanho do hr para ficar igual/proporcional ao titulo */
 .produto-info hr {
     margin: 0;
     width: 100%;
@@ -76,7 +73,6 @@
     font-size: small;
     padding: 0.6rem;
     color: var(--base1);
-    /* TODO: adicionar icone sacola branca */
 }
 
 .simula-entrega-button {
@@ -115,6 +111,8 @@
 .trocar-imagem {
     display: none;
 }
+
+/* ----------------------------------------------------------------------------------- */
 
 .imagem {
     width: 100%;
@@ -176,6 +174,8 @@
     background-image: url('/assets/img/almofadas/almofada-modelo4-2.webp');
 }
 
+/* ----------------------------------------------------------------------------------- */
+
 .carrinho1 {
     width: 100%;
     display: flex;
@@ -221,6 +221,9 @@
     background-image: url('/assets/img/carrinhos/carrinho-artetube3.webp');
 }
 
+
+/* ----------------------------------------------------------------------------------- */
+
 .espelho1 {
     width: 100%;
     display: flex;
@@ -264,4 +267,52 @@
 
 #espelho3:checked+.espelho3 {
     background-image: url('/assets/img/espelho/espelho-glamour2.webp');
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+.luminaria1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('/assets/img/luminaria/luminaria-safira1.webp');
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#luminaria1:checked+.luminaria1 {
+    background-image: url('/assets/img/luminaria/luminaria-safira2.webp');
+}
+
+.luminaria2 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('/assets/img/luminaria/luminaria-chile1.webp');
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#luminaria2:checked+.luminaria2 {
+    background-image: url('/assets/img/luminaria/luminaria-chile3.webp');
+}
+
+.luminaria3 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('/assets/img/luminaria/luminaria-square3.webp');
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#luminaria3:checked+.luminaria3 {
+    background-image: url('/assets/img/luminaria/luminaria-square2.webp');
 }
