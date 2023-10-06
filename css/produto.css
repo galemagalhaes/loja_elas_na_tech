@@ -119,14 +119,14 @@
     display: flex;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('assets/img/almofadas/almofada-modelo1.webp');
+    background-image: url(https://img.camicado.com.br/item/100503115/large/1.jpg);
     background-size: contain;
     cursor: pointer;
     transition: background-image 0.5s ease;
 }
 
 #trocarImagem:checked+.imagem {
-    background-image: url('assets/img/almofadas/almofada-modelo1-2.webp');
+    background-image: url(https://img.camicado.com.br/item/100503115/large/2.jpg);
 }
 
 .almofada2 {
