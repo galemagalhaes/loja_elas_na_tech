@@ -53,32 +53,32 @@ main {
 
 
 .categoria-carrinho {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/carrinhos/carrinho-modelo1.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-carrinho:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo1-3.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/carrinhos/carrinho-modelo1-3.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-carrinho2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/carrinhos/carrinho-modelo2.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-carrinho2:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-modelo-bar2-2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/carrinhos/carrinho-modelo-bar2-2.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-carrinho3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-artetube1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/carrinhos/carrinho-artetube1.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-carrinho3:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/carrinhos/carrinho-artetube2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/carrinhos/carrinho-artetube2.webp') no-repeat center;
     background-size: cover;
 }
 
@@ -86,110 +86,110 @@ main {
 
 /* ----------------------------------------------------------------------------------- */
 .categoria-almofada {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('../assets/img/almofadas/almofada-modelo1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo1.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-almofada:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('//assets/img/almofadas/almofada-modelo1-3.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo1-3.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-almofada2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo2.webp') no-repeat center;
     background-size: cover;
 
 }
 
 .categoria-almofada2:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo2-2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo2-2.webp') no-repeat center;
     background-size: cover;
 
 }
 
 .categoria-almofada3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo3.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo3.webp') no-repeat center;
     background-size: cover;
 
 }
 
 .categoria-almofada3:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo3-2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo3-2.webp') no-repeat center;
     background-size: cover;
 
 }
 
 .categoria-almofada4 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo4.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo4.webp') no-repeat center;
     background-size: cover;
 
 }
 
 .categoria-almofada4:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo4-2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/almofadas/almofada-modelo4-2.webp') no-repeat center;
     background-size: cover;
 }
 
 
 /* ----------------------------------------------------------------------------------- */
 .categoria-espelho {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-bellatrix.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/espelho/espelho-bellatrix.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-espelho:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-bellatrix3.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/espelho/espelho-bellatrix3.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-espelho2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-hanger.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/espelho/espelho-hanger.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-espelho2:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-hanger2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/espelho/espelho-hanger2.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-espelho3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-glamour1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/espelho/espelho-glamour1.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-espelho3:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/espelho/espelho-glamour2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/espelho/espelho-glamour2.webp') no-repeat center;
     background-size: cover;
 }
 
 /* ----------------------------------------------------------------------------------- */
 .categoria-luminaria1 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/luminaria/luminaria-safira1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/luminaria/luminaria-safira1.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-luminaria1:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/luminaria/luminaria-safira2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/luminaria/luminaria-safira2.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-luminaria2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/luminaria/luminaria-chile1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/luminaria/luminaria-chile1.webp') no-repeat center;
     background-size: cover;
 }
 
 
 .categoria-luminaria2:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/luminaria/luminaria-chile2.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/luminaria/luminaria-chile2.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-luminaria3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/luminaria/luminaria-square3.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/luminaria/luminaria-square3.webp') no-repeat center;
     background-size: cover;
 }
 
 .categoria-luminaria3:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/luminaria/luminaria-square1.webp') no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('assets/img/luminaria/luminaria-square1.webp') no-repeat center;
     background-size: cover;
 }
