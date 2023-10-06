@@ -1,0 +1,318 @@
+.produto {
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+
+.produto-foto {
+    width: 50%;
+
+}
+
+.produto-info {
+    width: 35%;
+    color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-titulo {
+    padding: 1rem 0 0;
+    margin: 0;
+}
+
+.produto-info hr {
+    margin: 0;
+    width: 100%;
+
+}
+
+.texto-pequeno {
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+    color: var(--cor3);
+}
+
+.texto-medio {
+    font-size: medium;
+    padding: 1rem 0;
+    margin: 0;
+    color: var(--cor1);
+}
+
+.preco {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    margin: 0;
+    color: var(--cor1);
+}
+
+.comprar {
+    display: flex;
+    justify-content: space-between;
+    width: 76.5%;
+}
+
+.comprar-input {
+    display: flex;
+    width: 15%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.comprar-button {
+    display: flex;
+    border: none;
+    width: 80%;
+    justify-content: center;
+    background-color: var(--cor1);
+    cursor: pointer;
+    font-size: small;
+    padding: 0.6rem;
+    color: var(--base1);
+}
+
+.simula-entrega-button {
+    border: none;
+    border-left: 1px solid var(--cor1);
+    border-bottom: 1px solid var(--cor1);
+    background-color: var(--cor3transp);
+    cursor: pointer;
+    font-size: small;
+    padding: 0.6rem;
+    color: var(--cor1transp);
+}
+
+.simula-entrega-input {
+    height: 2rem;
+    margin: auto 0;
+    border: none;
+    border-bottom: 1px solid var(--cor1);
+    outline: none;
+    width: 60%;
+}
+
+.simula-entrega {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 2.5rem
+}
+
+.navegacao {
+    padding: 1rem 0;
+    color: var(--cor1);
+}
+
+
+.trocar-imagem {
+    display: none;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.imagem {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://img.camicado.com.br/item/100503115/large/1.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#trocarImagem:checked+.imagem {
+    background-image: url(https://img.camicado.com.br/item/100503115/large/2.jpg);
+}
+
+.almofada2 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://img.camicado.com.br/item/100469607/large/1.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#almofada2:checked+.almofada2 {
+    background-image: url(https://img.camicado.com.br/item/100469607/large/2.jpg);
+}
+
+.almofada3 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://img.camicado.com.br/item/100684981/large/1.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#almofada3:checked+.almofada3 {
+    background-image: url(https://img.camicado.com.br/item/100684981/large/2.jpg);
+}
+
+.almofada4 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://img.camicado.com.br/item/100795584/large/1.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#almofada4:checked+.almofada4 {
+    background-image: url(https://img.camicado.com.br/item/100795584/large/2.jpg);
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.carrinho1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://img.camicado.com.br/item/100762328/large/1.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#carrinho1:checked+.carrinho1 {
+    background-image: url(https://img.camicado.com.br/item/100762328/large/2.jpg);
+}
+
+.carrinho2 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010700418531/7510700705392/2.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#carrinho2:checked+.carrinho2 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010700418531/7510700705392/0.jpg);
+}
+
+.carrinho3 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/3827/7010701907866/7510703946301/0.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#carrinho3:checked+.carrinho3 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/3827/7010701907866/7510703946301/1.jpg);
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+.espelho1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010700483776/7510700769942/0.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#espelho1:checked+.espelho1 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010700483776/7510700769942/3.jpg);
+}
+
+.espelho2 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/3525/7010701691871/7510703362766/1.jpeg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#espelho2:checked+.espelho2 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/3525/7010701691871/7510703362766/7.jpeg);
+}
+
+.espelho3 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://img.camicado.com.br/item/000000000000037951/large/1.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#espelho3:checked+.espelho3 {
+    background-image: url(https://img.camicado.com.br/item/000000000000037951/large/3.jpg);
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+.luminaria1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010701439011/7510702735024/2.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#luminaria1:checked+.luminaria1 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010701439011/7510702735024/0.jpg);
+}
+
+.luminaria2 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010701568641/7510703129911/0.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#luminaria2:checked+.luminaria2 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/2298/7010701568641/7510703129911/3.jpg);
+}
+
+.luminaria3 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/1637/7010701736262/7510703447014/0.jpg);
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+#luminaria3:checked+.luminaria3 {
+    background-image: url(https://imgmarketplace.lojasrenner.com.br/20000/1637/7010701736262/7510703447014/3.jpg);
+}

@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: var(--cor6);
+
+}
+
+.sobre h2 {
+    text-align: center;
+}
+
+.section1 {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: auto;
+}
+
+.foto,
+.dadosPessoais {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+.dadosPessoais {
+    flex-direction: column;
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.menu-contatos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.menu-contatos h1 {
+    display: flex;
+    justify-content: center;
+}

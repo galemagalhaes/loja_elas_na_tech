@@ -1,0 +1,110 @@
+/* TODO: separar css do header e footer e básicos do main para repetir nas outras páginas */
+
+html {
+
+  --cor1: #2b444d;
+  --cor2: #725740;
+  --cor3: #6D8884;
+  --cor4: #c0996c;
+  --cor5: #f1e9de;
+  --cor6: #fff9f0;
+
+  --cor1transp: #2b444dbe;
+  --cor3transp: #6d888488;
+
+  --base1: #fff;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-color: var(--cor4);
+}
+
+.banner-img {
+  display: flex;
+  width: 50%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+.banner-p {
+  display: flex;
+  align-items: center;
+  color: var(--base1);
+}
+
+
+.destaques-promocao,
+.destaques-categorias {
+  display: flex;
+  width: 100%;
+  background-color: var(--cor5);
+  padding: 1rem 0;
+
+}
+
+.destaques-promocao {
+  flex-direction: column;
+}
+
+.destaques-categorias {
+  margin: auto;
+  width: 90%;
+  gap: 2px;
+  padding: 0;
+}
+
+.destaque-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor1transp);
+  width: 25%;
+  height: 30rem;
+}
+
+.destaques-img {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 15rem;
+}
+
+.destaques-img img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.destaques-p {
+  color: var(--base1);
+  height: 15rem;
+  display: flex;
+}
+
+.destaques-p p {
+  width: 100%;
+  align-items: center;
+}
+
+
+
+#animacao {
+  animation-timing-function: linear;
+  width: 50%;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
+}

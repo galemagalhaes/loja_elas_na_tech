@@ -1,0 +1,81 @@
+html {
+
+    --cor1: #2b444d;
+    --cor2: #725740;
+    --cor3: #6D8884;
+    --cor4: #c0996c;
+    --cor5: #f1e9de;
+    --cor6: #fff9f0;
+
+    --cor3transp: #6d888488;
+
+    --base1: #fff;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 2rem 1rem 0;
+    height: 25rem;
+    background-color: var(--cor1);
+    color: var(--cor6);
+}
+
+
+
+.div-footer {
+    display: flex;
+    width: 20%;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.alinha {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.social,
+.formas-pagamento {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+
+.pinterest,
+.facebook,
+.instagram,
+.cartao {
+    display: flex;
+    height: 2rem;
+}
+
+.ajuda {
+    display: flex;
+    padding: .4rem 0;
+    color: inherit;
+}
+
+.formas-pagamento {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.p-rodape,
+.p-rodape p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: .5rem auto;
+    padding: 0;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.p-rodape {
+    border-top: 1px solid var(--cor6);
+}
