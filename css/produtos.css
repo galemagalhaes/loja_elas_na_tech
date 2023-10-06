@@ -66,6 +66,16 @@ main {
     background-size: cover;
 }
 
+.categoria-almofada2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo2.webp') no-repeat center;
+    background-size: cover;
+}
+
+.categoria-almofada2:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, var(--cor1) 100%), url('/assets/img/almofadas/almofada-modelo2-2.webp') no-repeat center;
+    background-size: cover;
+}
+
 
 
 .categoria-espelho {
