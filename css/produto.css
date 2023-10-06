@@ -259,14 +259,14 @@
     display: flex;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('assets/img/espelho/espelho-glamour1.webp');
+    background-image: url('./assets/img/espelho/espelho-glamour1.webp');
     background-size: contain;
     cursor: pointer;
     transition: background-image 0.5s ease;
 }
 
 #espelho3:checked+.espelho3 {
-    background-image: url('assets/img/espelho/espelho-glamour2.webp');
+    background-image: url('./assets/img/espelho/espelho-glamour2.webp');
 }
 
 
@@ -277,14 +277,14 @@
     display: flex;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('assets/img/luminaria/luminaria-safira1.webp');
+    background-image: url('./assets/img/luminaria/luminaria-safira1.webp');
     background-size: contain;
     cursor: pointer;
     transition: background-image 0.5s ease;
 }
 
 #luminaria1:checked+.luminaria1 {
-    background-image: url('assets/img/luminaria/luminaria-safira2.webp');
+    background-image: url('./assets/img/luminaria/luminaria-safira2.webp');
 }
 
 .luminaria2 {
@@ -292,14 +292,14 @@
     display: flex;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('assets/img/luminaria/luminaria-chile1.webp');
+    background-image: url('./assets/img/luminaria/luminaria-chile1.webp');
     background-size: contain;
     cursor: pointer;
     transition: background-image 0.5s ease;
 }
 
 #luminaria2:checked+.luminaria2 {
-    background-image: url('assets/img/luminaria/luminaria-chile3.webp');
+    background-image: url('./assets/img/luminaria/luminaria-chile3.webp');
 }
 
 .luminaria3 {
@@ -307,12 +307,12 @@
     display: flex;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('assets/img/luminaria/luminaria-square3.webp');
+    background-image: url('./assets/img/luminaria/luminaria-square3.webp');
     background-size: contain;
     cursor: pointer;
     transition: background-image 0.5s ease;
 }
 
 #luminaria3:checked+.luminaria3 {
-    background-image: url('assets/img/luminaria/luminaria-square2.webp');
+    background-image: url('./assets/img/luminaria/luminaria-square2.webp');
 }
